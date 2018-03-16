@@ -8,6 +8,7 @@
          ("C-c i" . helm-projectile-ag)
          ("C-," . helm-mini))
   :config (helm-mode 1))
+
 (use-package helm-projectile)
 (use-package helm-company)
 (use-package helm-ag)
