@@ -1,5 +1,3 @@
-;; set "." to switch buffer
-
 ;; set RET to return and indent correctly
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
