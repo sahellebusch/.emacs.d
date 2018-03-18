@@ -12,3 +12,6 @@
 (defun windows? ()
   "Figure out if the system type is Windows."
   (or (eq system-type 'ms-dos) (eq system-type 'windows-nt)))
+
+;; set "Yes" or "No" interactive answers to "y" or "n"
+(fset 'yes-or-no-p 'y-or-n-p)
