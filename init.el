@@ -9,7 +9,7 @@
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (spacemacs-theme projectile-rails delight git-link magit helm-lobsters helm-ag helm-company helm-projectile helm use-package)))
+    (helm-swoop markdown-mode ag ace-jump-mode spacemacs-theme projectile-rails delight git-link magit helm-lobsters helm-ag helm-company helm-projectile helm use-package)))
  '(use-package-always-ensure t))
 
 ;; load up all packages in the packages directory
@@ -27,15 +27,18 @@
 (package-initialize)
 (package-refresh-contents)
 
-(load "/Users/seanh/.emacs.d/package/utilities.el")
+(load "~/.emacs.d/package/utilities.el")
 
 (when (not (package-installed-p 'use-package))
     (progn
       (package-install 'use-package)))
 (require 'use-package)
 
-(mapc (lambda (package-file) (load package-file))
-      (directory-files (concat user-emacs-directory "package/") t "^[^\.].*\.el$"))
+(add-hook 'after-init-hook
+          (lambda ()
+             (mapc (lambda (package-file) (load package-file))
+                    (directory-files (concat user-emacs-directory "package/") t "^[^\.].*\.el$"))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

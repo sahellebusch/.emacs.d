@@ -5,5 +5,4 @@
   :bind (("C-w" . helm-projectile-find-file)))
 (projectile-mode)
 
-;;; Projectile with Rails
-(use-package projectile-rails)
+;; need to set up helm-projectile-ag to search through the project root
