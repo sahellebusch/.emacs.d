@@ -3,6 +3,10 @@
 (use-package projectile
   :delight '(:eval (concat " [" (projectile-project-name) "]"))
   :bind (("C-w" . helm-projectile-find-file)))
-(projectile-mode)
+ (projectile-mode)
 
-;; need to set up helm-projectile-ag to search through the project root
+(setq projectile-indexing-method 'native
+      projectile-globally-ignored-directories
+      (quote
+       (".idea" ".ensime_cache" ".eunit" ".git" "node_modules" "elpa-25.3" "autosave-list"))
+     )

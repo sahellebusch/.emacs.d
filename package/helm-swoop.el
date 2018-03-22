@@ -4,8 +4,8 @@
   ("M-i" . helm-swoop)
   ("M-s s" . helm-swoop)
   ("M-I" . helm-swoop-back-to-last-point)
-  ("C-x M-s i" . helm-multi-swoop)
-  ("C-x M-s a" . helm-multi-swoop-all)
+  ("M-s M-i" . helm-multi-swoop)
+  ("M-s M-a" . helm-multi-swoop-all)
   )
  :config
  (progn

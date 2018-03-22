@@ -5,7 +5,7 @@
          ("M-y" . helm-show-kill-ring)
          ("C-x C-f" . helm-find-files)
          ("C-c o" . helm-projectile-switch-project)
-         ("C-x M-s p" . helm-projectile-ag)
+         ("M-s M-p" . helm-projectile-ag)
          ("C-," . helm-mini))
   :config (helm-mode 1))
 
