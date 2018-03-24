@@ -8,5 +8,6 @@
 (setq projectile-indexing-method 'native
       projectile-globally-ignored-directories
       (quote
-       (".idea" ".ensime_cache" ".eunit" ".git" "node_modules" "elpa-25.3" "autosave-list"))
+       (".idea" ".ensime_cache" ".eunit" ".git" "node_modules" "elpa-25.3" "auto-save-list" "backups"))
      )
+

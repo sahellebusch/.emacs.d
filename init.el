@@ -9,7 +9,7 @@
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (company-tern tern add-node-modules-path exec-path-from-shell flycheck-pos-tip flycheck web-mode json-mode elisp-format smartparens editorconfig all-the-icons js2-mode persistent-scratch helm-swoop markdown-mode ag ace-jump-mode spacemacs-theme projectile-rails delight git-link magit helm-lobsters helm-ag helm-company helm-projectile helm use-package)))
+    (tern-auto-complete company-tern tern add-node-modules-path exec-path-from-shell flycheck-pos-tip flycheck web-mode json-mode elisp-format smartparens editorconfig all-the-icons js2-mode persistent-scratch helm-swoop markdown-mode ag ace-jump-mode spacemacs-theme projectile-rails delight git-link magit helm-lobsters helm-ag helm-company helm-projectile helm use-package)))
  '(use-package-always-ensure t))
 
 ;; load up all packages in the packages directory
