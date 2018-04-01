@@ -1,4 +1,4 @@
-;; set RET to return and indent correctly
+;;;; set RET to return and indent correctly
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
 (defadvice load-theme (before theme-dont-propagate activate)
@@ -27,3 +27,8 @@
 (setq vc-make-backup-files t)
 (setq auto-save-file-name-transforms '((".*" "~/.emacs.d/auto-save-list/" t)))
 
+;; always highlight matching parens
+(show-paren-mode 1)
+
+;; comment code
+(global-define-key (kbd "C-x C-\\") comment-region)
