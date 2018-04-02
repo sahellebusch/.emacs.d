@@ -30,5 +30,3 @@
 ;; always highlight matching parens
 (show-paren-mode 1)
 
-;; comment code
-(global-define-key (kbd "C-x C-\\") comment-region)

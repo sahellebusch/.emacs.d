@@ -9,7 +9,7 @@
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (nlinum company-web yasnippet ac-js2 ac-js2-mode tern-auto-complete company-tern tern add-node-modules-path exec-path-from-shell flycheck-pos-tip flycheck web-mode json-mode elisp-format smartparens editorconfig all-the-icons js2-mode persistent-scratch helm-swoop markdown-mode ag ace-jump-mode spacemacs-theme projectile-rails delight git-link magit helm-lobsters helm-ag helm-company helm-projectile helm use-package)))
+    (web-mode company-tern tern yasnippet spacemacs-theme smartparens delight persistent-scratch nlinum markdown-mode git-link magit json-mode js2-mode helm-lobsters helm-ag helm-company helm-projectile helm-swoop flycheck-pos-tip exec-path-from-shell elisp-format editorconfig all-the-icons ag add-node-modules-path ace-jump-mode use-package)))
  '(use-package-always-ensure t))
 
 ;; load up all packages in the packages directory
