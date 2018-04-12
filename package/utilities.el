@@ -30,3 +30,5 @@
 ;; always highlight matching parens
 (show-paren-mode 1)
 
+;; always show line numbers
+(setq global-linum-mode t)
