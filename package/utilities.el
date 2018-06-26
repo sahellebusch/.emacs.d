@@ -32,3 +32,4 @@
 
 ;; always show line numbers
 (setq global-linum-mode t)
+

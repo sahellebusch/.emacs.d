@@ -1,3 +1,1 @@
-(use-package all-the-icons
-  :ensure t
-  )
+(use-package all-the-icons)
