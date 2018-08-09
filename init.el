@@ -13,7 +13,7 @@
  '(json-reformat:indent-width 2)
  '(package-selected-packages
    (quote
-    (key-chord smart-mode-line-powerline-theme smart-mode-line multi-scratch neotree less-css-mode docker-compose-modenn docker-compose-mode web-mode company-tern tern yasnippet spacemacs-theme smartparens delight persistent-scratch nlinum markdown-mode git-link magit json-mode js2-mode helm-lobsters helm-ag helm-company helm-projectile helm-swoop flycheck-pos-tip exec-path-from-shell elisp-format editorconfig all-the-icons ag add-node-modules-path ace-jump-mode use-package)))
+    (simpleclip rjsx-mode key-chord smart-mode-line-powerline-theme smart-mode-line multi-scratch neotree less-css-mode docker-compose-modenn docker-compose-mode web-mode company-tern tern yasnippet spacemacs-theme smartparens delight persistent-scratch nlinum markdown-mode git-link magit json-mode js2-mode helm-lobsters helm-ag helm-company helm-projectile helm-swoop flycheck-pos-tip exec-path-from-shell elisp-format editorconfig all-the-icons ag add-node-modules-path ace-jump-mode use-package)))
  '(use-package-always-ensure t))
 
 ;; load up all packages in the packages directory

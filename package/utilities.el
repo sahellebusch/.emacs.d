@@ -33,3 +33,6 @@
 ;; always show line numbers
 (setq global-linum-mode t)
 
+;; fuck tabs
+(setq-default indent-tabs-mode nil)
+
