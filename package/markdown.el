@@ -5,3 +5,5 @@
          ("\\.md\\'" . markdown-mode)
          ("\\.markdown\\'" . markdown-mode))
   :init (setq markdown-command "multimarkdown"))
+
+(setq markdown-command "/usr/local/bin/pandoc")
