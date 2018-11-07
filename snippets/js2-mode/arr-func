@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: arrow func
+# key: arr
+# --
+($1) => {
+   $2
+}

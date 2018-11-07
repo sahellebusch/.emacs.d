@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: jsdoc
+# key: jsdoc
+# --
+/**
+ * $1
+ *
+ *
+ *
+ *
+ *
+ */

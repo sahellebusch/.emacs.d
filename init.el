@@ -4,16 +4,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector
-   ["#0a0814" "#f2241f" "#67b11d" "#b1951d" "#4f97d7" "#a31db1" "#28def0" "#b2b2b2"])
  '(custom-safe-themes
    (quote
-    ("fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+    ("60948671aeed6450faa8f28978a09586f142af6eb0b59e70848fcc32b9d36fd1" "75d3dde259ce79660bac8e9e237b55674b910b470f313cdf4b019230d01a982a" "6b2636879127bf6124ce541b1b2824800afc49c6ccd65439d6eb987dbf200c36" "4697a2d4afca3f5ed4fdf5f715e36a6cac5c6154e105f3596b44a4874ae52c45" "6d589ac0e52375d311afaa745205abb6ccb3b21f6ba037104d71111e7e76a3fc" "fe666e5ac37c2dfcf80074e88b9252c71a22b6f5d2f566df9a7aa4f9bea55ef8" "3a3de615f80a0e8706208f0a71bbcc7cc3816988f971b6d237223b6731f91605" "a3fa4abaf08cc169b61dea8f6df1bbe4123ec1d2afeb01c17e11fdc31fc66379" "f0dc4ddca147f3c7b1c7397141b888562a48d9888f1595d69572db73be99a024" "d2e9c7e31e574bf38f4b0fb927aaff20c1e5f92f72001102758005e53d77b8c9" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(js-indent-level 2)
  '(json-reformat:indent-width 2)
  '(package-selected-packages
    (quote
-    (plantuml-mode simpleclip rjsx-mode key-chord smart-mode-line-powerline-theme smart-mode-line multi-scratch neotree less-css-mode docker-compose-modenn docker-compose-mode web-mode company-tern tern yasnippet spacemacs-theme smartparens delight persistent-scratch nlinum markdown-mode git-link magit json-mode js2-mode helm-lobsters helm-ag helm-company helm-projectile helm-swoop flycheck-pos-tip exec-path-from-shell elisp-format editorconfig all-the-icons ag add-node-modules-path ace-jump-mode use-package)))
+    (tide powerline nimbus-theme doom-themes plantuml-mode simpleclip rjsx-mode key-chord smart-mode-line-powerline-theme smart-mode-line multi-scratch neotree less-css-mode docker-compose-modenn docker-compose-mode web-mode company-tern tern yasnippet spacemacs-theme smartparens delight persistent-scratch nlinum markdown-mode git-link magit json-mode js2-mode helm-lobsters helm-ag helm-company helm-projectile helm-swoop flycheck-pos-tip exec-path-from-shell elisp-format editorconfig all-the-icons ag add-node-modules-path ace-jump-mode use-package)))
  '(use-package-always-ensure t))
 
 ;; load up all packages in the packages directory
@@ -48,4 +46,5 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(highlight ((t (:background "#9AE22C" :foreground "#b2b2b2")))))
+
