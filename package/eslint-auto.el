@@ -17,14 +17,3 @@
   (eslint-fix-and-revert-buffer))
 
 (global-set-key (kbd "C-c e") 'run-eslint)
-
-;; (add-hook 'js2-mode-hook
-;;           (lambda ()
-;;             (add-hook 'after-save-hook #'eslint-fix-and-revert-buffer)))
-
-;; ;; (add-hook 'rjsx-mode
-;; ;;           (lambda ()
-;; ;;             (add-hook 'after-save-hook #'eslint-fix-and-revert-buffer)))
-
-
-;; (remove-hook 'after-save-hook #'eslint-fix-and-revert-buffer)
