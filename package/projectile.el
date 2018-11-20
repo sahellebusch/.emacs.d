@@ -11,7 +11,7 @@
     (setq projectile-completion-system 'default)
     (setq projectile-enable-caching t)
     (setq projectile-indexing-method 'alien)
-    (add-to-list 'projectile-globally-ignored-files "node-modules"))
+    (add-to-list 'projectile-globally-ignored-files "node_modules"))
   :config
   (projectile-global-mode))
 (use-package helm-projectile)
