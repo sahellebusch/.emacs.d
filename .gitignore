@@ -58,4 +58,8 @@ flycheck_*.el
 .idea/
 
 # swaps
-*.~
+*.~.lsp-*
+
+.lsp-*
+
+url/
