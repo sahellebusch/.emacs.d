@@ -11,7 +11,7 @@
  '(json-reformat:indent-width 2)
  '(package-selected-packages
    (quote
-    (golint go-mode company-quickhelp company-lsp lsp-ui lsp-mode robe enh-ruby-mode graphql-mode dockerfile-mode doom-modeline dracula-theme buffer-move tide powerline nimbus-theme doom-themes plantuml-mode simpleclip rjsx-mode key-chord smart-mode-line-powerline-theme smart-mode-line multi-scratch neotree less-css-mode docker-compose-modenn docker-compose-mode web-mode company-tern tern yasnippet spacemacs-theme smartparens delight persistent-scratch nlinum markdown-mode git-link magit json-mode js2-mode helm-lobsters helm-ag helm-company helm-projectile helm-swoop flycheck-pos-tip exec-path-from-shell elisp-format editorconfig all-the-icons ag add-node-modules-path ace-jump-mode use-package)))
+    (treemacs lsp-treemacs helm-lsp golint go-mode company-quickhelp company-lsp lsp-ui lsp-mode robe enh-ruby-mode graphql-mode dockerfile-mode doom-modeline dracula-theme buffer-move tide powerline nimbus-theme doom-themes plantuml-mode simpleclip rjsx-mode key-chord smart-mode-line-powerline-theme smart-mode-line multi-scratch neotree less-css-mode docker-compose-modenn docker-compose-mode web-mode company-tern tern yasnippet spacemacs-theme smartparens delight persistent-scratch nlinum markdown-mode git-link magit json-mode js2-mode helm-lobsters helm-ag helm-company helm-projectile helm-swoop flycheck-pos-tip exec-path-from-shell elisp-format editorconfig all-the-icons ag add-node-modules-path ace-jump-mode use-package)))
  '(pdf-view-midnight-colors (quote ("#b2b2b2" . "#292b2e")))
  '(send-mail-function (quote mailclient-send-it))
  '(use-package-always-ensure t))
