@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: object init
-# key: obj
-# --
-const $1 = {
-  $2
-};

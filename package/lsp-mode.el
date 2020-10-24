@@ -6,8 +6,8 @@
 (use-package 
   lsp-mode
   :hook ((
-          go-mode ruby-mode js-mode     ; ts-ls (tsserver wrapper)
-                  typescript-mode       ; ts-ls (tsserver wrapper)
+          ruby-mode js2-mode     ; ts-ls (tsserver wrapper)
+                  ;; typescript-mode       ; ts-ls (tsserver wrapper)
                   ) . lsp) 
   :commands lsp)
 
