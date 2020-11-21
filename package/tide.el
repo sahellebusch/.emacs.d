@@ -10,7 +10,7 @@
   tide
   :ensure t
   :init
-  (setq tide-tsserver-executable "/Users/seanh/.nvm/versions/node/v12.13.0/bin/tsserver"))
+  (setq tide-tsserver-executable "/Users/seanh/.nvm/versions/node/v12.19.0/bin/tsserver"))
 
 (defun setup-tide-mode ()
   (interactive)
